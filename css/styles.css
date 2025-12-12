@@ -284,6 +284,7 @@ body {
 .projects__top {
 	text-align: center;
 	color: var(--white-color);
+	margin-bottom: 79px;
 }
 
 .projects__title {
@@ -320,4 +321,65 @@ body {
 
 .projects__link:active {
 	opacity: 0.6;
+}
+
+.projects__list {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	row-gap: 94px;
+	column-gap: 27px;
+	color: var(--white-color);
+}
+
+.projects__item {
+	max-width: 560px;
+	width: 100%;
+}
+
+.projects__item-img {
+	width: 560px;
+	height: 620px;
+	object-fit: cover;
+	margin-bottom: 32px;
+}
+
+.projects__item-inner {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+	margin-bottom: 32px;
+}
+
+.projects__item-title {
+	font-family: var(--syne-fonts);
+	font-weight: 700;
+	font-style: Bold;
+	font-size: 24px;
+	line-height: 1.5;
+}
+
+.projects__item-line {
+	height: 1px;
+	width: 48px;
+	background-color: var(--orange-color);
+}
+
+.projects__item-bottom:not(:last-child) {
+	margin-bottom: 8px;
+}
+
+.projects__item-text {
+	color: #606060;
+	margin-right: 16px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 0.25px;
+}
+
+.projects__item-text2 {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.5;
+	letter-spacing: 0.25px;
 }
