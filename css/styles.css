@@ -275,3 +275,49 @@ body {
 	bottom: 48px;
 	left: -27.5px;
 }
+
+.projects {
+	padding-top: 100px;
+	padding-bottom: 66px;
+}
+
+.projects__top {
+	text-align: center;
+	color: var(--white-color);
+}
+
+.projects__title {
+	margin-bottom: 54px;
+	font-family: var(--syne-fonts);
+	font-weight: 700;
+	font-style: Bold;
+	font-size: 64px;
+	line-height: 100%;
+	letter-spacing: 0%;
+}
+
+.projects__link {
+	border: 1px solid var(--orange-color);
+	border-radius: 32.5px;
+	padding: 24px 33px 24px 45px;
+	color: var(--white-color);
+	gap: 24px;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 100%;
+	letter-spacing: 1.63px;
+	text-transform: uppercase;
+	transition: all 0.4s ease;
+}
+
+.projects__link img {
+	margin-left: 29px;
+}
+
+.projects__link:hover {
+	background-color: var(--orange-color);
+}
+
+.projects__link:active {
+	opacity: 0.6;
+}
