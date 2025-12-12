@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<!-- AOS ANIMATION -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<header class="site-header" data-aos="fade-down" data-aos-duration="800">
+			<div class="container site-header__container">
+				<a class="logo" href="/" data-aos="fade-right" data-aos-delay="100" data-aos-duration="900">
+					<img src="images/header/logo.svg" alt="logo" width="125" height="22" />
+				</a>
+
+				<ul class="site-header__list" data-aos="fade-up" data-aos-delay="250" data-aos-duration="900">
+					<li class="site-header__item">
+						<a class="site-header__link" href="#" data-aos="fade-left" data-aos-delay="350">Home</a>
+					</li>
+					<li class="site-header__item">
+						<a class="site-header__link" href="#" data-aos="fade-left" data-aos-delay="450">About me</a>
+					</li>
+					<li class="site-header__item">
+						<a class="site-header__link" href="#" data-aos="fade-left" data-aos-delay="550">My works</a>
+					</li>
+				</ul>
+
+				<a class="btn" href="#" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="900"> Contact </a>
+			</div>
+		</header>
+
+		<main class="main">
+			<section class="hero" data-aos="fade-up" data-aos-duration="900">
+				<div class="hero__container">
+					<h1
+						class="hero__title"
+						data-aos="fade-up"
+						data-aos-delay="150"
+						data-aos-duration="1000"
+						data-aos-easing="ease-out-cubic">
+						Adaptive Logo Design for Your Brand
+					</h1>
+
+					<button class="btn-orange" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="900">
+						Explore works
+						<img src="images/hero/icon.svg" alt="icon" />
+					</button>
+				</div>
+			</section>
+
+			<section class="know" data-aos="fade-up" data-aos-duration="900">
+				<div class="container know__container">
+					<div
+						class="know__info"
+						data-aos="fade-right"
+						data-aos-delay="150"
+						data-aos-duration="1000"
+						data-aos-easing="ease-out-cubic">
+						<h2 class="know__title" data-aos="fade-up" data-aos-delay="250">Let’s get know about me closer</h2>
+
+						<p class="know__text" data-aos="fade-up" data-aos-delay="350">
+							Aaronn is a New York-based visual designer focusing on branding and visual identity. Her portfolio showcases her
+							wide range of work, spanning books, posters and web design.
+						</p>
+
+						<button class="btn-orange know__btn-orange" data-aos="zoom-in" data-aos-delay="550">Discover More About Me</button>
+					</div>
+
+					<div class="know__img-wrapper" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
+						<img src="images/know/person.png" alt="person" data-aos="zoom-in" data-aos-delay="450" data-aos-duration="1000" />
+
+						<img
+							class="know__horizontal"
+							src="images/know/horintol.svg"
+							alt="horizontal"
+							data-aos="fade-up"
+							data-aos-delay="650"
+							data-aos-duration="900" />
+
+						<img
+							class="know__vertical"
+							src="images/know/vertical.svg"
+							alt="vertical"
+							data-aos="fade-down"
+							data-aos-delay="750"
+							data-aos-duration="900" />
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- JS -->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				once: true, // Animation bir marta ishlasin
+				offset: 120, // Qancha pastga tushganda animatsiya ishlasin
+				duration: 600, // Default animatsiya davomiyligi
+				easing: 'ease-out-quad', // Silliq professional easing
+			});
+		</script>
+	</body>
+</html>
