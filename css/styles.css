@@ -336,11 +336,24 @@ body {
 	width: 100%;
 }
 
-.projects__item-img {
-	width: 560px;
+.projects__item-img-wrapper {
+	width: 520px;
 	height: 620px;
+	overflow: hidden;
+	border-radius: 16px;
+}
+
+.projects__item-img {
+	width: 100%;
+	height: 100%;
 	object-fit: cover;
 	margin-bottom: 32px;
+	border-radius: 16px;
+	transition: transform 0.4s ease;
+}
+
+.projects__item-img-wrapper:hover .projects__item-img {
+	transform: scale(1.1);
 }
 
 .projects__item-inner {
